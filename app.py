@@ -11,10 +11,8 @@ from langchain.llms import OpenAI
 from langchain.chat_models import AzureChatOpenAI
 
 import os
-from getpass import getpass
-os.environ["OPENAI_API_KEY"] = "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"
-# HUGGINGFACEHUB_API_TOKEN = getpass()
-# os.environ["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"] = HUGGINGFACEHUB_API_TOKEN
+
+
 DB_faiss_path="vetors/db_faiss"
 import requests
 
